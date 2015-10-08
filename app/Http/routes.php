@@ -12,7 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+	// return view('welcome');
+    return view('user_crud');
 });
 
 Route::get('/users', function (){
@@ -20,13 +21,13 @@ Route::get('/users', function (){
 	$user = new StdClass();
 	$user->id = 1;
 	$user->firstname = 'Joao';
-	$user->lastname = 'batista';
+	$user->lastname = 'Batista';
 	$user->age =33;
 
 	$user2 = new StdClass();
 	$user2->id = 2;
 	$user2->firstname = 'Jorge';
-	$user2->lastname = 'resende';
+	$user2->lastname = 'Resende';
 	$user2->age =30;
 	
 	$content = array($user, $user2);
