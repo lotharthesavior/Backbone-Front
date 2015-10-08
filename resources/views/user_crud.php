@@ -1,6 +1,12 @@
 <html>
 <head>
-	<title></title>
+
+	<!-- skeleton -->
+	<link href="<?php echo asset('libs/skeleton/css/normalize.css') ?>" rel="stylesheet" type="text/css">
+	<link href="<?php echo asset('libs/skeleton/css/skeleton.css') ?>" rel="stylesheet" type="text/css">
+
+	<title>Restfull Backbone/Laravel App</title>
+
 </head>
 <body>
 
